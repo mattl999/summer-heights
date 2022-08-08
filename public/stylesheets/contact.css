@@ -7,6 +7,43 @@
   background-repeat: repeat, repeat;
   /* border-top: 1px solid rgb(58, 61, 66); */
 }
-.contact-container{
-    background-color: aliceblue;
+.contact-wrapper{
+    width: 75%;
+    min-width: 300px;
+    
+}
+.contact-container {
+  background-color: rgba(240, 248, 255,.5);
+  border: 2px solid rgba(33, 37, 41,.9);
+  
+  background-size: 150px;
+  max-width: 900px;
+
+
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid rgba(101, 101, 101, 1); */
+  font-family: Montserrat, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+
+.contact-input {
+  background-color: white;
+  color: var(--font-color);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+
+  border: 1px solid rgba(101, 101, 101, 1);
+
+  
+}
+.text-area{
+    /* overflow: auto; */
 }

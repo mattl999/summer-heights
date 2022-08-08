@@ -110,6 +110,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: calc(100% - 4rem);
+  max-width: 1400px;
   /* background-color: rgba(50,50,50,.4); */
 }
 

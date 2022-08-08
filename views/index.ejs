@@ -65,7 +65,7 @@
     </div>
   </div>
   <div class="tour-section py-2" id="Tour">
-    <div class="container py-5" style="width: 69%">
+    <div class="container py-4 tour-container-tweak" style="width: 69%">
       <h1 class="mb-5 section-header">TOUR</h1>
       <% if(tourDates.length){ %>
       <% tourDates.forEach((el) => { %>
@@ -195,9 +195,18 @@
 
   </div>
   <div class="contact-section py-2" id="Contact">
-    <div class="container py-5" style="width: 75%">
+    <div class="container py-5" >
       <h1 class="mb-5">CONTACT</h1>
-      <div class="container contact-container">
+      <div class="container contact-container p-3">
+        <form class="contact-form p-2" action="/email">
+          <label for="name">Your Name</label>
+          <input class="contact-input mb-3 ps-3" type="text" name="name" autocomplete="disabled" id="">
+          <label for="name">Your Email Address</label>
+          <input class="contact-input mb-3 ps-3" type="text" name="email-address" id="" autocomplete="disabled">
+          <label for="name">Your Message</label>
+          <textarea rows="3"class="contact-input text-area mb-3 ps-3" type="text-field" name="message" id=""></textarea>
+
+        </form>
 
       </div>
     </div>
