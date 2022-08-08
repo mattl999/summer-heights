@@ -1,0 +1,53 @@
+.shop-section {
+  width: 100%;
+  max-width: 100%;
+  background-image: url(/img/tour-bg.jpg);
+  background-position: 0 0, 50% 50%;
+  background-size: auto cover;
+  background-repeat: repeat, repeat;
+  /* border-top: 1px solid rgb(58, 61, 66); */
+}
+.shop-items-container {
+  display: flex;
+  /* max-width: 100%; */
+  
+}
+.shop-box {  
+  background-color: transparent;
+  border:none;
+  /* border: 1px solid black; */
+  border-radius: 0;
+}
+.hover-animation{
+  border-radius: 5vh;
+
+}
+.hover-animation:hover{
+  background-color: rgba(116, 170, 188,.4);
+  border-radius: 2vh;
+  transition: 0.3s;
+}
+.shop-img{
+ /* border: 1px solid rgba(101, 101, 101, 0.1); */
+  border-radius: 0;
+}
+.cb-tweak{
+
+}
+.item-name{
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.price{
+  color: rgb(61, 115, 133);
+  font-size: 20px;
+}
+.shop-link{
+  text-decoration: none;
+  color: var(--font-color)
+}
+.shop-link:hover{
+  text-decoration: none;
+  color: var(--font-color)
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/admin.css">
+  <link rel="stylesheet" href="/stylesheets/manage-dates.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script defer src="/javascripts/edit.js"></script>
+
+  <title>Edit</title>
+</head>
+
+<body>
+  <div class="wrapper p-3">
+    <a href="/admin"><button class="logout"> Back</button></a>
+    <div class="wrap-col">
+
+      <h1>Edit Tour Date</h1>
+      <form id="edit-form">
+        <div class="row">
+          <label for="date">Date</label><br>
+          <input id="date-input" type="date" value="<%= el.raw.date %>" name="date" required>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <label for="time">Show Time</label><br>
+          <input id="time-input" class="intro-modal-input wake-up col-3" type="text" value="<%= el.raw.time %>" name="time" id="time" placeholder="ex. 8:00" required>
+          <select id="meridian-input" name="meridian" class="col-3" id="meridian" value="<%= el.raw.meridian %>">
+            <% if(el.raw.meridian === "am"){ %>
+            <option value="am" selected>AM</option>
+            <option value="pm">PM</option>
+            <% }else{ %>
+            <option value="am">AM</option>
+            <option value="pm" selected>PM</option>
+
+            <% } %>
+
+          </select>
+        </div>
+        <div class="row">
+          <label for="venue">Venue</label><br>
+          <input id="venue-input" type="text" value="<%= el.raw.venue %>" name="venue" placeholder="ex. Sneaky Dee's" required>
+        </div>
+        <div class="row">
+          <label for="city">City</label><br>
+          <input id="city-input" value="<%= el.raw.city %>"  type="text" name="city" placeholder="ex. Toronto" required>
+        </div>
+        <div class="row">
+          <label for="province">Province</label><br>
+          <input id="prov-input" type="text" value="<%= el.raw.province %>" name="province" placeholder="ex. ON or QC" required>
+        </div>
+        <div class="row">
+          <label for="ticketLink">Ticket Link (url)</label><br>
+          <input id="ticket-input" type="text" value="<%= el.raw.ticketLink %>" name="ticketLink" placeholder="full url from address bar of ticket site">
+        </div>
+        <button onclick="submitEdit(event)" data-id="<%= el.id %>">Submit</button>
+      </form>
+      <h1 class="mt-5">Currently Editing</h1>
+
+
+      <div class="container-fluid dark bof py-2">
+        <p class="mx-2 my-1"><%=   el.weekday  %>,&nbsp;
+          <%=   el.month  %>&nbsp;
+          <%=   el.day  %>&nbsp;
+          <%=   el.year  %>.&nbsp;
+          <%=   el.time  %>&nbsp;</p>
+        </br>
+        <p class="mx-2 my-1"><%=   el.venue  %>&nbsp;||&nbsp;
+          <%=   el.city  %>,&nbsp;
+          <%=   el.province  %>
+        </p>
+        <a class="mx-2 my-1" href="<%=   el.ticketLink  %>" id="link" target="_blank">Ticket Link</a>
+        <div class="mx-2 my-1">
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

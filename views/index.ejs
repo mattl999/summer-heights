@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Heights 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/tour.css">
+  <link rel="stylesheet" href="/stylesheets/shop.css">
+  <link rel="stylesheet" href="/stylesheets/contact.css">
+  <script defer src="/javascripts/script.js"></script>
+</head>
+
+<body>
+  <div class="section nav-section nav-font ">
+    <nav class="navbar navbar-dark navbar-expand-lg  nav-tweak mt-4">
+      <div class="container-fluid px-4 mobile-margin">
+        <div class="col-lg-4 col-12">
+          <a href="https://www.youtube.com/watch?v=pKZeWHX3Na8&ab_channel=SummerHeights" class="social-link" target="_blank">
+            <img src="/img/yt-icon.svg" alt="youtube" class="icon">
+          </a>
+          <a href="https://open.spotify.com/track/42FjlGrFOZ958Dj0ctpqkr?si=4f844526d31842f1&nd=1" class="social-link" target="_blank">
+            <img src="/img/spotify-icon.svg" alt="spotify" class="icon">
+          </a>
+          <a href="https://www.tiktok.com/@summerheightsband" class="social-link" target="_blank">
+
+            <img src="/img/tiktok-icon.svg" alt="tiktok" class="icon">
+          </a>
+          <a href="https://www.instagram.com/summerheightsband/" class="social-link" target="_blank">
+
+            <img src="/img/insta-icon.svg" alt="instagram" class="icon">
+          </a>
+
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-items-end brand-div" style="height:100%;">
+          <a class="navbar-brand nav-font p-0  brand-tweak d-flex align-items-end" href="#">Summer Heights</a>
+        </div>
+        <div class="col-lg-4 d-flex ">
+          <div class="navbar-toggler w-nav-button menu-button" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon hamburger"></span>
+          </div>
+          <div class="collapse navbar-collapse " role="navigation" aria-expanded="false" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link py-0 nav-items nav-link-mod" href="#Tour"> Tour</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  py-0 nav-items nav-link-mod" href="#Shop">Shop</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link py-0 nav-items nav-link-mod" href="#Contact">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container d-flex justify-content-start align-items-center feature-wrapper">
+      <div class="feature-container">
+      </div>
+    </div>
+  </div>
+  <div class="tour-section py-2" id="Tour">
+    <div class="container py-5" style="width: 69%">
+      <h1 class="mb-5 section-header">TOUR</h1>
+      <% if(tourDates.length){ %>
+      <% tourDates.forEach((el) => { %>
+      <div class="row tour-date-container py-4  my-4">
+        <div class="col-md-3 col-12 d-flex justify-content-center align-content-center date-div p-2">
+          <div class="date"><%= el.month %> <%= el.day %>, <%= el.year %></div>
+          <div class="time"><%= el.weekday %> <%= el.time %> </div>
+        </div>
+        <div class="col-md-5 location-div">
+          <div class="city">
+            <%= el.city %>, <%= el.province %>
+          </div>
+          <div class="venue">
+            <%= el.venue %>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 ticket-div">
+          <a class="ticket-link p-2 px-4 mt-2" href="<%= el.ticketLink %>" target="_blank">buy tickets</a>
+        </div>
+      </div>
+      <% }) %>
+      <% } else { %>
+      <div class="row not-touring-container py-4  my-4 mt-5">
+        Not currently touring...
+      </div>
+      <% } %>
+    </div>
+  </div>
+  <div class="shop-section py-2" id="Shop">
+    <div class="container py-5" style="width: 75%">
+      <h1 class="mb-5">SHOP</h1>
+      <div class="container-fluid overflow-hidden">
+        <div class="row gx-5">
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/dad-hat" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/white-embroidered-dad-hat.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Embroidered Dad Hat <span class="price">$25</span> </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/robot-t-shirt" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/white-robot-tshirt.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Robot T-Shirt <span class="price">$25</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/robot-t-shirt" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/white-rat-hoodie.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Rat Hoodie <span class="price">$40</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/summer-heights-tote" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/white-tote-bag.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Tote Bag <span class="price">$15</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/hat-hoodie-bundle" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/hat-hoodie-bundle.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Hat/Hoodie Bundle <span class="price">$25</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/t-shirt-hoodie-combo" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/t-shirt-hoodie-combo.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">T-Shirt/Hoodie Bundle <span class="price">$25</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/tote-and-tee-bundle" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/tote-tee-bundle.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Tote/T-shirt Bundle <span class="price">$35</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+            <a href="https://merchrun.store/products/ultimate-bundle" class="shop-link" target="_blank">
+              <div class=" card shop-box">
+                <img src="/img/summer-heights-merch/ultimate-bundle.png" class="card-img-top shop-img" alt="...">
+                <div class="card-body cb-tweak p-1 ">
+                  <h5 class="card-title d-flex justify-content-between item-name">Ultimate Bundle <span class="price">$25</span>
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+  <div class="contact-section py-2" id="Contact">
+    <div class="container py-5" style="width: 75%">
+      <h1 class="mb-5">CONTACT</h1>
+      <div class="container contact-container">
+
+      </div>
+    </div>
+  </div>
+  <a href="/admin" class="admin">admin</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

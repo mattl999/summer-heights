@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400&display=swap");
+html {
+  color-scheme: dark !important;
+}
+body {
+  width: 100%;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100vh;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  
+}
+.nav-font {
+  font-family: Montserrat, sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-section {
+  min-height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
+  background-image: linear-gradient(
+      185deg,
+      #000,
+      #000,
+      rgba(11, 24, 69, 0.3) 0,
+      transparent 30%,
+      rgba(0, 0, 0, 0.1) 102%
+    ),
+    url(/img/hero-demo.jpg);
+  background-position: 0 0, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+}
+.brand-tweak {
+  font-family: "Cormorant SC", serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 991px) {
+  .brand-div {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: start !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mobile-margin {
+    margin-left: -20px;
+  }
+
+  .nav-font {
+    font-size: 37px;
+  }
+  .icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .brand-div {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav-font {
+    font-size: 30px;
+  }
+  .icon {
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .nav-font {
+    font-size: 25px;
+  }
+  .mobile-margin {
+    margin-left: -28px;
+  }
+  .icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
+
+.icon {
+  filter: invert(100%) sepia(0%) saturate(1752%) hue-rotate(344deg)
+    brightness(99%) contrast(115%);
+  max-height: 24px;
+  width: 24px;
+  height: 24px;
+}
+.nav-tweak {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 4rem);
+  /* background-color: rgba(50,50,50,.4); */
+}
+
+.nav-items {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 800;
+}
+
+.social-link {
+  color: transparent;
+  padding-right: 0.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  opacity: 0.8;
+  height: 30%;
+}
+.social-link:hover {
+  color: transparent;
+}
+
+.menu-button {
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border: none;
+  background-image: url("/img/hamburger.svg");
+  filter: invert(85%) sepia(0%) saturate(1752%) hue-rotate(320deg)    brightness(99%) contrast(115%);
+  max-height: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+}
+.menu-button:hover{
+  filter: invert(100%) sepia(0%) saturate(1752%) hue-rotate(344deg)    brightness(99%) contrast(115%)
+}
+.hamburger {
+  font-size: 1rem;
+  border: none;
+  font-weight: 9px;
+  background-image: none;
+}
+.nav-link-mod{
+  color:white;
+  font-weight: 900;
+}
+.feature-wrapper{
+  height:90%;
+}
+.admin{
+  position: relative;
+  bottom:0;
+  right:0;
+  background-color: rgb(0, 0, 0);
+  z-index: 3;
+  
+}
