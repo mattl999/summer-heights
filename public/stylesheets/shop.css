@@ -1,7 +1,7 @@
 .shop-section {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/tour-bg.jpg);
+  background-image: url(/img/bg6.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -10,44 +10,45 @@
 .shop-items-container {
   display: flex;
   /* max-width: 100%; */
-  
 }
-.shop-box {  
+.shop-box {
   background-color: transparent;
-  border:none;
+  border: none;
   /* border: 1px solid black; */
   border-radius: 0;
 }
-.hover-animation{
-  border-radius: 5vh;
-
+.hover-animation {
+  border-radius: 9vh;
 }
-.hover-animation:hover{
-  background-color: rgba(116, 170, 188,.4);
-  border-radius: 2vh;
-  transition: 0.3s;
+.hover-animation:hover {
+  background-color: rgba(152, 159, 166, 0.2);
+  border-radius: 3vh;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  transition: 0.2s;
+  
+  
 }
-.shop-img{
- /* border: 1px solid rgba(101, 101, 101, 0.1); */
+.shop-img {
+  /* border: 1px solid rgba(101, 101, 101, 0.1); */
   border-radius: 0;
 }
-.cb-tweak{
-
+.cb-tweak {
+  color: whitesmoke
 }
-.item-name{
+.item-name {
   font-size: 18px;
   font-weight: 100;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
-.price{
+.price {
   color: rgb(61, 115, 133);
   font-size: 20px;
 }
-.shop-link{
+.shop-link {
   text-decoration: none;
-  color: var(--font-color)
+  color: var(--font-color);
 }
-.shop-link:hover{
+.shop-link:hover {
   text-decoration: none;
-  color: var(--font-color)
+  color: var(--font-color);
 }

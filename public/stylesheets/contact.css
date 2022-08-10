@@ -1,25 +1,22 @@
 .contact-section {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/tour-bg.jpg);
+  background-image: url(/img/bg6.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
   /* border-top: 1px solid rgb(58, 61, 66); */
 }
-.contact-wrapper{
-    width: 75%;
-    min-width: 300px;
-    
+.contact-wrapper {
+  width: 75%;
+  min-width: 300px;
 }
 .contact-container {
-  background-color: rgba(240, 248, 255,.5);
-  border: 2px solid rgba(33, 37, 41,.9);
-  
+  background-color: rgba(240, 248, 255, 0.3);
+  border: 2px solid rgba(33, 37, 41, 0.9);
+
   background-size: 150px;
   max-width: 900px;
-
-
 }
 .contact-form {
   display: flex;
@@ -27,23 +24,25 @@
   justify-content: center;
   /* border: 1px solid rgba(101, 101, 101, 1); */
   font-family: Montserrat, sans-serif;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   font-weight: 800;
   text-transform: uppercase;
-
 }
 
 .contact-input {
-  background-color: white;
-  color: var(--font-color);
+  background-color: rgba(255, 255, 255,.8);
+  color: black;
   font-family: Montserrat, sans-serif;
   font-weight: 500;
 
   border: 1px solid rgba(101, 101, 101, 1);
-
-  
 }
-.text-area{
-    /* overflow: auto; */
+.text-area {
+  /* overflow: auto; */
+}
+@media screen and (max-width: 400px) {
+  .contact-header {
+    font-size: 65px !important;
+  }
 }
