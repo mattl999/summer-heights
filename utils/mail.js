@@ -1,11 +1,12 @@
 const mailgun = require("mailgun-js");
 
 const mg = mailgun({
-  apiKey: "527f6e5f42fe320d16e09a9123ae2076-2bab6b06-2d2bed81",
+  apiKey: process.env.MAILGUN_PRIVATE_KEY,
   domain: "sandbox0bdffd31f2124d2fa0122ab6f9f4714b.mailgun.org",
 });
 // const transporter = nodemailer.createTransport(mailGun(auth));
 const sendMail = (from, email, text, cb) => {
+  console.log()
   const data = {
     from: `${from} <${email}>`,
     to: "mattl99@hotmail.ca",
