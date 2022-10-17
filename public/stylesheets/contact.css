@@ -1,7 +1,7 @@
 .contact-section {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/bg6.jpg);
+  background-image: url(/img/bg6mod.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -12,10 +12,13 @@
   min-width: 300px;
 }
 .contact-container {
-  background-color: rgba(240, 248, 255, 0.3);
-  border: 2px solid rgba(33, 37, 41, 0.9);
+  /* background-color: rgba(240, 248, 255, 0.3); */
+  background-image: url(/img/bg9.jpg);
+  /* border: 2px solid rgba(17, 16, 16, 0.8); */
+  color: rgb(206, 206, 206);
 
-  background-size: 150px;
+  background-size: 300px;
+  /* border-radius: 5px; */
   max-width: 900px;
 }
 .contact-form {
@@ -32,11 +35,35 @@
 
 .contact-input {
   background-color: rgba(255, 255, 255,.8);
+  background-image: url(/img/bg3.jpg);
+  /* background-color: var(--light-font); */
+  /* background-size: 400px; */
+
   color: black;
   font-family: Montserrat, sans-serif;
-  font-weight: 500;
-
+  font-family: "Josefin Sans", sans-serif;
+  /* font-weight: 500; */
+  font-size: 18px;
   border: 1px solid rgba(101, 101, 101, 1);
+  border:none;
+}
+.contact-input:active{
+  /* border:1px solid black; */
+} 
+.contact-btn{
+  /* background-image: url(/img/bg2.jpg); */
+  background-color: rgb(168, 179, 189);
+  color:rgb(36, 36, 36);
+
+  border-radius: 0;
+}
+.contact-btn:hover{
+  /* background-image:none; */
+
+  background-color: rgb(134, 134, 134);
+  color:black;
+ 
+
 }
 .text-area {
   /* overflow: auto; */

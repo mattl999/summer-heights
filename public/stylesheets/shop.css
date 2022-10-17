@@ -1,7 +1,7 @@
 .shop-section {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/bg6.jpg);
+  background-image: url(/img/bg6mod.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -21,7 +21,7 @@
   border-radius: 9vh;
 }
 .hover-animation:hover {
-  background-color: rgba(152, 159, 166, 0.2);
+  background-color: rgba(152, 159, 166, 0.1);
   border-radius: 3vh;
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   transition: 0.2s;

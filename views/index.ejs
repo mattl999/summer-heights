@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/stylesheets/tour.css">
   <link rel="stylesheet" href="/stylesheets/shop.css">
   <link rel="stylesheet" href="/stylesheets/contact.css">
+  <link rel="stylesheet" href="/stylesheets/music.css">
   <script defer src="/javascripts/script.js"></script>
 </head>
 
@@ -49,6 +50,9 @@
                 <a class="nav-link py-0 nav-items nav-link-mod" href="#Tour"> Tour</a>
               </li>
               <li class="nav-item ">
+                <a class="nav-link py-0 nav-items nav-link-mod" href="#Music">Music</a>
+              </li>
+              <li class="nav-item ">
                 <a class="nav-link  py-0 nav-items nav-link-mod" href="#Shop">Shop</a>
               </li>
               <li class="nav-item ">
@@ -66,8 +70,11 @@
     </div>
   </div>
   <div class="tour-section py-2" id="Tour">
-    <div class="container py-4 tour-container-tweak" style="width: 69%">
-      <h1 class="mb-5 section-header">TOUR</h1>
+    <div class="container py-4 tour-container-tweak" style="width: 70%">
+      <div class="header-holder">
+
+        <h1 class="mb-5 mt-4 ">TOUR</h1>
+      </div>
       <% if(tourDates.length){ %>
       <% tourDates.forEach((el) => { %>
       <div class="row tour-date-container py-4  my-4">
@@ -103,13 +110,27 @@
       </div> -->
     </div>
   </div>
+  <div class="tour-section py-2" id="Music">
+    <div class="container py-5" style="width: 69%">
+      <!-- <div class="header-holder"> -->
+      <h1 class="mb-5">MUSIC</h1>
+      <!-- </div> -->
+      <div class="container music-container p-5">
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe"src="https://open.spotify.com/embed/track/1c7gNpREKkHy8VA0gmix0e?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/42FjlGrFOZ958Dj0ctpqkr?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/0iwoyFmN34X77swMt3OehL?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/4KuSuy2JOmk7mFHLdpiifh?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/4ZzKxWUkDOyk8BZnnm5vBt?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </div>
 
+  </div>
   <div class="shop-section py-2" id="Shop">
     <div class="container py-5" style="width: 75%">
       <h1 class="mb-5">SHOP</h1>
       <div class="container-fluid overflow-hidden">
-        <div class="row gx-5">
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+        <div class="row ">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/dad-hat" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/transparent-embroidered-dad-hat3.png" class="card-img-top shop-img" alt="...">
@@ -119,7 +140,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/robot-t-shirt" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/transparent-robot-tshirt.png" class="card-img-top shop-img" alt="...">
@@ -130,7 +151,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/rat-hoodie" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/transparent-rat-hoodie2.png" class="card-img-top shop-img" alt="...">
@@ -141,7 +162,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/summer-heights-tote" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/transparent-tote-bag3.png" class="card-img-top shop-img" alt="...">
@@ -152,40 +173,40 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/hat-hoodie-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/hat-hoodie-bundle.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
-                  <h5 class="card-title d-flex justify-content-between item-name">Hat/Hoodie Bundle <span class="price">$25</span>
+                  <h5 class="card-title d-flex justify-content-between item-name">Hat/Hoodie Bundle <span class="price">$60</span>
                   </h5>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/t-shirt-hoodie-combo" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/t-shirt-hoodie-combo.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
-                  <h5 class="card-title d-flex justify-content-between item-name">T-Shirt/Hoodie Bundle <span class="price">$25</span>
+                  <h5 class="card-title d-flex justify-content-between item-name">T-Shirt/Hoodie Bundle <span class="price">$60</span>
                   </h5>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/tote-and-tee-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/tote-tee-bundle2.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
-                  <h5 class="card-title d-flex justify-content-between item-name">Tote/T-shirt Bundle <span class="price">$35</span>
+                  <h5 class="card-title d-flex justify-content-between item-name">Tote and Tee Bundle <span class="price">$35</span>
                   </h5>
                 </div>
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-xxl-4 py-3 hover-animation">
+          <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/ultimate-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
                 <img src="/img/summer-heights-merch/ultimate-bundle.png" class="card-img-top shop-img" alt="...">
@@ -200,18 +221,19 @@
       </div>
     </div>
   </div>
+
   <div class="contact-section py-2" id="Contact">
     <div class="container py-5">
       <h1 class="mb-5 contact-header">CONTACT</h1>
-      <div class="container contact-container p-3">
+      <div class="container contact-container p-3 px-4">
         <form class="contact-form p-2" action="/email">
-          <label for="name">Your Name</label>
-          <input class="contact-input mb-3 ps-3" type="text" name="name" autocomplete="disabled" id="contact-name">
-          <label for="name">Your Email Address</label>
-          <input class="contact-input mb-3 ps-3" type="text" name="email-address" id="contact-email-address" autocomplete="disabled">
-          <label for="name">Your Message</label>
-          <textarea rows="3" class="contact-input text-area mb-3 ps-3" type="text-field" name="message" id="contact-message"></textarea>
-          <button type="submit" class="btn btn-light btn-outline-dark" onclick="submitEmail(event)">Submit</button>
+          <label for="name">Your Name:</label>
+          <input class="contact-input mb-3 ps-3 py-1" type="text" name="name" autocomplete="disabled" id="contact-name">
+          <label for="name">Your Email Address:</label>
+          <input class="contact-input mb-3 ps-3 py-1" type="text" name="email-address" id="contact-email-address" autocomplete="disabled">
+          <label for="name">Your Message:</label>
+          <textarea rows="3" class="contact-input text-area mb-3 ps-3 py-1" type="text-field" name="message" id="contact-message"></textarea>
+          <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2" onclick="submitEmail(event)">Submit</button>
 
         </form>
 
