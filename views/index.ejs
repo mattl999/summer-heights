@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/stylesheets/contact.css">
   <link rel="stylesheet" href="/stylesheets/music.css">
   <script defer src="/javascripts/script.js"></script>
+  <script defer src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -128,7 +129,7 @@
   <div class="shop-section py-2" id="Shop">
     <div class="container py-5" style="width: 75%">
       <h1 class="mb-5">SHOP</h1>
-      <div class="container-fluid overflow-hidden">
+      <div class="container-fluid">
         <div class="row ">
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/dad-hat" class="shop-link" target="_blank">
@@ -226,14 +227,19 @@
     <div class="container py-5">
       <h1 class="mb-5 contact-header">CONTACT</h1>
       <div class="container contact-container p-3 px-4">
-        <form class="contact-form p-2" action="/email">
+        <form class="contact-form p-2" action="/email" method="post" onsubmit=false>
+          <!-- <form class="contact-form p-2" onsubmit="sendEmail(); reset(); return false;"> -->
           <label for="name">Your Name:</label>
           <input class="contact-input mb-3 ps-3 py-1" type="text" name="name" autocomplete="disabled" id="contact-name">
           <label for="name">Your Email Address:</label>
-          <input class="contact-input mb-3 ps-3 py-1" type="text" name="email-address" id="contact-email-address" autocomplete="disabled">
+          <input class="contact-input mb-3 ps-3 py-1" type="text" name="emailaddress" id="contact-email-address" autocomplete="disabled">
           <label for="name">Your Message:</label>
           <textarea rows="3" class="contact-input text-area mb-3 ps-3 py-1" type="text-field" name="message" id="contact-message"></textarea>
-          <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2" onclick="submitEmail(event)">Submit</button>
+          <!-- <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2" onclick="submitEmail(event)">Submit</button> -->
+          <!-- sendGrid btn  -->
+          <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2">Submit</button>
+          <!-- <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2">Submit</button> -->
+
 
         </form>
 
