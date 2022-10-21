@@ -12,20 +12,24 @@ async function index(req, res) {
 
 async function email2(req, res) {
   
-  let data = req.body;
+  let data = req.body.msgData;
   let from = data.name;
-  let email = data.emailaddress;
+  let email = data.email;
   let message = data.message;
-
+  console.log("confirming this is the email 2 function")
   const msg = {
     // to: 'summerheights.contact@gmail.com', 
-    to: "mattl99@hotmail.ca", 
+    // to: "summerheights.contact@gmail.com", 
+    to: "mattl99@hotmail.ca",
     from: "summerheightswebsite@gmail.com",
     subject: "Message from Summer Heights Website",
     text: message,
-    html: `Sender's address: <strong style="color:blue">${email}</strong> </br> </br> Sender's name: <strong style="color:blue">${from}</strong> </br> </br> 
-  <strong> Message: </strong> "${message}" </br> </br> 
-  Reply to this message using the address in <span style="color:blue"> blue</span>.`,
+    html: `Message from: <strong> ${from} </strong> <br>
+    Email Address: <strong style="color:blue">${email}</strong> 
+    <br><br>  
+    <span style="font-size:large;"><strong > Message: </strong> "${message}" </span>
+    <br><br> 
+    Reply to this message using the address shown in <span style="color:blue"> blue</span>.`,
   };
   sgMail
     .send(msg)

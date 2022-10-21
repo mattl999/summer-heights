@@ -174,14 +174,30 @@ body {
 .feature-wrapper{
   height:90%;
 }
-.admin{
-  position: relative;
-  bottom:0;
-  right:0;
-  background-color: rgb(0, 0, 0);
-  z-index: 3;
-  
-}
+
+
 .feature-img{
   max-width:100%
+}
+
+.footer-section{
+    width: 100%;
+    max-width: 100%;
+    background-color: #000;
+    background-position: 0 0, 50% 50%;
+    background-size: auto cover;
+    background-repeat: repeat, repeat;
+    font-size: 10px;
+    /* border-top: 1px solid rgb(58, 61, 66); */
+}
+.foot-nav-tweak{
+position: static !important;
+} 
+.footer-font{
+  height: min-content;
+}
+.design-by{
+  text-decoration: none;
+  font-weight: bolder;
+  height: min-content;
 }

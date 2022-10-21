@@ -117,7 +117,7 @@
       <h1 class="mb-5">MUSIC</h1>
       <!-- </div> -->
       <div class="container music-container p-5">
-        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe"src="https://open.spotify.com/embed/track/1c7gNpREKkHy8VA0gmix0e?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/1c7gNpREKkHy8VA0gmix0e?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/42FjlGrFOZ958Dj0ctpqkr?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/0iwoyFmN34X77swMt3OehL?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <iframe style="border-radius:15px;opacity:74%;" class="mb-4 music-iframe" src="https://open.spotify.com/embed/track/4KuSuy2JOmk7mFHLdpiifh?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -224,16 +224,16 @@
   </div>
 
   <div class="contact-section py-2" id="Contact">
-    <div class="container py-5">
+    <div class="container py-5" id="contact-section-container">
       <h1 class="mb-5 contact-header">CONTACT</h1>
-      <div class="container contact-container p-3 px-4">
-        <form class="contact-form p-2" action="/email" method="post" onsubmit=false>
-          <!-- <form class="contact-form p-2" onsubmit="sendEmail(); reset(); return false;"> -->
+      <div class="container contact-container p-3 px-4 mb-4">
+        <!-- <form class="contact-form p-2" action="/email" method="post" > -->
+        <form class="contact-form p-2" onsubmit="sendEmail(event)">
           <label for="name">Your Name:</label>
           <input class="contact-input mb-3 ps-3 py-1" type="text" name="name" autocomplete="disabled" id="contact-name">
-          <label for="name">Your Email Address:</label>
+          <label for="email">Your Email Address:</label>
           <input class="contact-input mb-3 ps-3 py-1" type="text" name="emailaddress" id="contact-email-address" autocomplete="disabled">
-          <label for="name">Your Message:</label>
+          <label for="message">Your Message:</label>
           <textarea rows="3" class="contact-input text-area mb-3 ps-3 py-1" type="text-field" name="message" id="contact-message"></textarea>
           <!-- <button type="submit" class="btn btn-light btn-outline-dark contact-btn mt-2" onclick="submitEmail(event)">Submit</button> -->
           <!-- sendGrid btn  -->
@@ -246,7 +246,17 @@
       </div>
     </div>
   </div>
-  <a href="/admin" class="admin">admin</a>
+  <div class="container-fluid footer-section p-1">
+    
+    <div class="container d-flex justify-content-between">
+      <span> Design:  <a class="design-by"href="https://mattlobo.ca" target="_blank" rel="noopener noreferrer">Matt</a>
+      </span>
+      <a href="/admin" class="admin">admin</a>
+      
+    </div>
+
+
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
