@@ -4,7 +4,6 @@ const mainCtrl = require('../controllers/index')
 
 /* GET home page. */
 router.get('/', mainCtrl.index);
-// router.post('/email', mainCtrl.email)
-router.post('/email', mainCtrl.email2)
+router.post('/email', mainCtrl.email)
 
 module.exports = router;

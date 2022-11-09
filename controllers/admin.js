@@ -70,12 +70,8 @@ async function getAuthPage(req, res) {
     : res.render("admin", { incorrect: false });
 }
 async function manageDates(req, res) {
-  console.log("manage dates func hit");
   let currentlyLoggedIn = await LoggedIn.find({});
   let loginState = currentlyLoggedIn[0].loggedIn;
-  // console.log(currentlyLoggedIn);
-  console.log("loggedin:", loginState);
-
   if (loginState) {
     let tourDates = await TourDate.find({});
     res.render("manage-dates", { tourDates: tourDates });
