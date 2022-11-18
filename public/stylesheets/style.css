@@ -12,7 +12,7 @@ body {
 .section-bg {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/bgmirror.jpg);
+  background-image: url(/img/bgmirror-min2.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -45,7 +45,7 @@ body {
       transparent 20%,
       rgba(0, 0, 0, 0.5) 102%
     ),
-    /* url(/SH_HERO2_minsat.jpg); */ /* url(/SH_BG.jpg); */ url(/img/HERO_A.jpg);
+    /* url(/SH_HERO2_minsat.jpg); */ /* url(/SH_BG.jpg); */ url(/img/HERO_A-min.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, repeat;

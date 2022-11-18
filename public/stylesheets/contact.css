@@ -11,7 +11,7 @@
 }
 .contact-container {
   /* background-color: rgba(240, 248, 255, 0.3); */
-  background-image: url(/img/bg9.jpg);
+  background-image: url(/img/bg9-min.jpg);
   /* border: 2px solid rgba(17, 16, 16, 0.8); */
   color: rgb(206, 206, 206);
 
@@ -35,24 +35,28 @@
 }
 
 .contact-input {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url(/img/bg3.jpg);
-  /* background-color: var(--light-font); */
-  /* background-size: 400px; */
-
+  background-color: rgba(255, 255, 255, 0.53);
+  background-color: #a8b3bd;
+  
   color: black;
   font-family: Montserrat, sans-serif;
   font-family: "Josefin Sans", sans-serif;
-  /* font-weight: 500; */
   font-size: 18px;
   border: 1px solid rgba(101, 101, 101, 1);
   border: none;
+  padding-left: 8px;
 }
-.contact-input:active {
-  /* border:1px solid black; */
+
+
+@media screen and (max-width: 500px){
+  .contact-input{
+    font-size: 13px;
+    font-weight: 100;
+    padding-left: 4px !important;
+  }
 }
+
 .contact-btn {
-  /* background-image: url(/img/bg2.jpg); */
   background-color: rgb(168, 179, 189);
   color: rgb(36, 36, 36);
 

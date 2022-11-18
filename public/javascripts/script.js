@@ -3,8 +3,11 @@ const senderName = document.getElementById("contact-name");
 const emailAddress = document.getElementById("contact-email-address");
 const message = document.getElementById("contact-message");
 const contactSection = document.getElementById("contact-section-container");
+const imgObj = document.getElementById("tester")
 
 let togglerBorder = false;
+
+// imgObj.addEventListener('load', ()=>{alert("loaded")})
 
 const toggle = () => {
   togglerBorder = !togglerBorder;
@@ -14,6 +17,8 @@ const toggle = () => {
     : (navToggler.style.filter =
         "invert(82%) sepia(0%) saturate(1752%) hue-rotate(320deg)    brightness(99%) contrast(115%)");
 };
+
+let emailError = false;
 
 const sendEmail = async (event) => {
   event.preventDefault();
@@ -46,6 +51,10 @@ const sendEmail = async (event) => {
         }, 3000);
       }, 4000);
     } else {
+      if(emailError){
+        contactSection.removeChild(node)
+      }
+      emailError = true;
       const messageText = document.createTextNode(
         "There was an error sending your message. You can mail us directly at: summerheights.contact@gmail.com"
       );
