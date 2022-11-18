@@ -1,12 +1,10 @@
 
 .shop-items-container {
   display: flex;
-  /* max-width: 100%; */
 }
 .shop-box {
   background-color: transparent;
   border: none;
-  /* border: 1px solid black; */
   border-radius: 0;
 }
 .hover-animation {
@@ -14,19 +12,15 @@
 }
 .hover-animation:hover {
   background-color: rgba(152, 159, 166, 0.05);
-  /* border:1px solid white; */
   box-shadow:  4px 5px 2px rgba(0,0,0,.5);
   transition: 0.25s;
   transform: scale(1.015);
-  
 }
 .shop-img {
-  /* border: 1px solid rgba(101, 101, 101, 0.1); */
   border-radius: 0;
   transition: 0.1s;
 }
 .shop-img:hover{
-  /* transform: scale(1.01); */
   transition: 0.3s;
 }
 .cb-tweak {
