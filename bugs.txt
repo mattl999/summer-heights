@@ -1,1 +1,0 @@
-bug where admin loggin redirect will happen befor the login func updates the database, causing user to be recdirected to '/' even after successful login

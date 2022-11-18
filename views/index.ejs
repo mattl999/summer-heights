@@ -22,16 +22,16 @@
       <div class="container-fluid px-4 mobile-margin">
         <div class="col-lg-4 col-12 d-flex align-items-center">
           <a href="https://open.spotify.com/track/42FjlGrFOZ958Dj0ctpqkr?si=4f844526d31842f1&nd=1" class="social-link" target="_blank">
-            <img src="/img/spotify-icon.svg" alt="spotify" class="icon">
+            <img src="/img/icons/spotify-icon.svg" alt="spotify" class="icon">
           </a>
           <a href="https://www.tiktok.com/@summerheightsband" class="social-link" target="_blank">
-            <img src="/img/tiktok-icon.svg" alt="tiktok" class="icon">
+            <img src="/img/icons/tiktok-icon.svg" alt="tiktok" class="icon">
           </a>
           <a href="https://www.instagram.com/summerheightsband/" class="social-link" target="_blank">
-            <img src="/img/insta-icon.svg" alt="instagram" class="icon">
+            <img src="/img/icons/insta-icon.svg" alt="instagram" class="icon">
           </a>
           <a href="https://www.youtube.com/watch?v=pKZeWHX3Na8&ab_channel=SummerHeights" class="social-link" target="_blank">
-            <img src="/img/yt-icon.svg" alt="youtube" class="icon">
+            <img src="/img/icons/yt-icon.svg" alt="youtube" class="icon">
           </a>
         </div>
         <div class="col-lg-4 d-flex justify-content-center align-items-end brand-div" style="height:100%;">
@@ -65,12 +65,12 @@
       </div>
     </div>
   </div>
+  <% if(tourDates.length){ %>
   <div class="tour-section section-bg py-2" id="Tour">
     <div class="container py-4 tour-container-tweak" style="width: 70%">
       <div class="header-holder">
         <h1 class="mb-5 mt-4 ">TOUR</h1>
       </div>
-      <% if(tourDates.length){ %>
       <% tourDates.forEach((el) => { %>
       <div class="row tour-date-container py-4  my-4">
         <div class="col-md-3 col-12 d-flex justify-content-center align-content-center date-div p-2">
@@ -91,9 +91,7 @@
       </div>
       <% }) %>
       <% } else { %>
-      <div class="row not-touring-container py-4  my-4 mt-5">
-        Not currently touring...
-      </div>
+      
       <% } %>
     </div>
   </div>
@@ -117,7 +115,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/dad-hat" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/transparent-embroidered-dad-hat3-min.png" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/transparent-embroidered-dad-hat3-min.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Embroidered Dad Hat <span class="price">$25</span> </h5>
                 </div>
@@ -127,7 +125,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/robot-t-shirt" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/transparent-robot-tshirt-min.png" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/transparent-robot-tshirt-min.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Robot T-Shirt <span class="price">$25</span>
                   </h5>
@@ -138,7 +136,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/rat-hoodie" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/transparent-rat-hoodie2-min.png" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/transparent-rat-hoodie2-min.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Rat Hoodie <span class="price">$40</span>
                   </h5>
@@ -149,7 +147,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/summer-heights-tote" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/transparent-tote-bag3-min.png" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/transparent-tote-bag3-min.png" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Tote Bag <span class="price">$15</span>
                   </h5>
@@ -160,7 +158,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/hat-hoodie-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/hat-hoodie-bundle-min.jpg" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/hat-hoodie-bundle-min.jpg" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Hat/Hoodie Bundle <span class="price">$60</span>
                   </h5>
@@ -171,7 +169,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/t-shirt-hoodie-combo" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/t-shirt-hoodie-combo-min.jpg" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/t-shirt-hoodie-combo-min.jpg" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">T-Shirt/Hoodie Bundle <span class="price">$60</span>
                   </h5>
@@ -182,7 +180,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/tote-and-tee-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/tote-tee-bundle2-min.jpg" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/tote-tee-bundle2-min.jpg" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Tote and Tee Bundle <span class="price">$35</span>
                   </h5>
@@ -193,7 +191,7 @@
           <div class="col-md-6 col-xxl-4 p-4 hover-animation">
             <a href="https://merchrun.store/products/ultimate-bundle" class="shop-link" target="_blank">
               <div class=" card shop-box">
-                <img loading='lazy' src="/img/summer-heights-merch/ultimate-bundle-min.jpg" class="card-img-top shop-img" alt="...">
+                <img loading='lazy' src="/img/merch/ultimate-bundle-min.jpg" class="card-img-top shop-img" alt="...">
                 <div class="card-body cb-tweak p-1 ">
                   <h5 class="card-title d-flex justify-content-between item-name">Ultimate Bundle <span class="price">$25</span>
                   </h5>

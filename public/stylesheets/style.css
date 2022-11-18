@@ -12,7 +12,7 @@ body {
 .section-bg {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/bgmirror-min2.jpg);
+  background-image: url(/img/backgrounds/main-bg.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -45,7 +45,7 @@ body {
       transparent 20%,
       rgba(0, 0, 0, 0.5) 102%
     ),
-    url(/img/HERO_A-min.jpg);
+    url(/img/hero.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, repeat;
@@ -55,9 +55,7 @@ body {
   font-style: italic;
 }
 .brand-tweak:hover {
-  font-family: "Cormorant SC", serif;
-  font-style: italic;
-  color: #fff !important;
+ cursor: default;
 }
 
 @media screen and (max-width: 1199px) {
@@ -175,7 +173,7 @@ body {
   -ms-grid-row-align: center;
   align-self: center;
   border: none;
-  background-image: url("/img/hamburger.svg");
+  background-image: url("/img/icons/hamburger.svg");
   filter: invert(85%) sepia(0%) saturate(1752%) hue-rotate(320deg)
     brightness(99%) contrast(115%);
   max-height: 24px;

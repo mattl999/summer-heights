@@ -15,8 +15,7 @@ async function email(req, res) {
   let email = data.email;
   let message = data.message;
   const msg = {
-    // to: "summerheights.contact@gmail.com",
-    to: "mattl99@hotmail.ca",
+    to: "summerheights.contact@gmail.com",
     from: "summerheightswebsite@gmail.com",
     subject: "Message from Summer Heights Website",
     text: message,
