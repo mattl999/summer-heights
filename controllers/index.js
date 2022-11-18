@@ -6,19 +6,16 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 async function index(req, res) {
   let tourDates = await TourDate.find({});
-  console.log("heythere", tourDates);
   res.render("index", { tourDates: tourDates });
 }
 
-async function email(req, res) {  
+async function email(req, res) {
   let data = req.body.msgData;
   let from = data.name;
   let email = data.email;
   let message = data.message;
-  console.log("confirming this is the email 2 function")
   const msg = {
-     
-    // to: "summerheights.contact@gmail.com", 
+    // to: "summerheights.contact@gmail.com",
     to: "mattl99@hotmail.ca",
     from: "summerheightswebsite@gmail.com",
     subject: "Message from Summer Heights Website",
@@ -39,6 +36,8 @@ async function email(req, res) {
     })
     .catch((error) => {
       console.error(error);
+      res.status(400);
+      res.json("Error");
       return error;
     });
 }
@@ -46,5 +45,4 @@ async function email(req, res) {
 module.exports = {
   index,
   email,
-  
 };

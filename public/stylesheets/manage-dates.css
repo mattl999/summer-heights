@@ -35,7 +35,7 @@ input {
       transparent 30%,
       rgba(0, 0, 0, 0.1) 90%
     ),
-    url(/img/tour-bg.jpg);
+    url(/img/bg3.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -67,7 +67,7 @@ input {
   color: white;
 }
 .light {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(181, 181, 181, 0.5);
 }
 .centralize {
   display: flex;
@@ -76,6 +76,6 @@ input {
 
 .logout {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 12px;
+  right: 12px;
 }

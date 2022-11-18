@@ -11,7 +11,7 @@
       transparent 30%,
       rgba(0, 0, 0, 0.1) 90%
     ),
-    url(/img/tour-bg.jpg);
+    url(/img/bg3.jpg);
   background-position: 0 0, 50% 50%;
   background-size: auto cover;
   background-repeat: repeat, repeat;
@@ -33,9 +33,9 @@
   align-items: center;
   flex-direction: column;
   height: 20%;
-  border: 2px solid rgba(33, 37, 41, .8);
+  border: 1px solid rgba(33, 37, 41, .8);
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   
   
 }
@@ -55,8 +55,8 @@ input{
 }
 .return {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 12px;
+  right: 12px;
 }
 .login-form{
   display: flex;

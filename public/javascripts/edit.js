@@ -18,7 +18,6 @@ async function submitEdit(event) {
   formData.city = cityInput.value;
   formData.province = provInput.value;
   formData.ticketLink = ticketInput.value;
-console.log(formData);
 
   const requestOptions = {
     method: "PUT",
@@ -26,6 +25,5 @@ console.log(formData);
     body: JSON.stringify({ formData: formData }),
   };
   fetch(`/admin/edit/${tourDateId}`, requestOptions)
-    .then((res) => console.log(res.json()))
     .then(() => window.location.replace("/admin/manage-dates"));
 }

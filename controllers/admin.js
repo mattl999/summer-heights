@@ -7,12 +7,9 @@ var dayOfWeek = require("day-of-week").get;
 var weekday = require("weekday");
 
 async function create(req, res) {
-  console.log("create func triggered");
-  console.log(req.body);
   let n = req.body;
   let t = {};
   t.raw = n;
-  console.log(dayOfWeek(n.date));
   let weekD = weekday(dayOfWeek(n.date) + 1).substring(0, 3);
   let fullTime = n.time + n.meridian;
   let dateArr = n.date.split("-");
@@ -33,23 +30,19 @@ async function create(req, res) {
   res.redirect("/admin/manage-dates");
 }
 async function deleteDate(req, res) {
-  console.log("Hey");
   let id = req.params.id;
-  console.log(id);
   await TourDate.deleteOne({ _id: id })
   return res.status(200).json({ formData: "hi there" });
 
 }
 
 async function authUser(req, res) {
-  console.log("authuser func triggered");
-  console.log("hello -->", process.env.USERNAME);
+  
   let user = req.body.user;
   let pass = req.body.pass;
   let currentlyLoggedIn = await LoggedIn.find({});
   let loggedInState = currentlyLoggedIn[0].loggedIn;
 
-  console.log(req.body);
 
   if (
     (user === process.env.USERNAME && pass === process.env.PASS) ||
@@ -62,7 +55,6 @@ async function authUser(req, res) {
   }
 }
 async function getAuthPage(req, res) {
-  console.log("getauthpagefunctriggered");
   let currentlyLoggedIn = await LoggedIn.find({});
   let loginState = currentlyLoggedIn[0].loggedIn;
   loginState
@@ -94,20 +86,15 @@ async function login() {
 }
 async function getEditPage(req, res) {
   id = req.params.id;
-  // console.log("edit controller function triggered", id);
   let selectedDate = await TourDate.findById(id);
-  // console.log(selectedDate);
   res.render("edit", { el: selectedDate });
 }
 
 async function edit(req, res) {
-  console.log("edit func hit: ", req.body.formData);
   let n = req.body.formData;
   let id = n.id;
-  console.log("edit func hit: ", id);
   let t = await TourDate.findById(id);
   t.raw = n;
-  console.log(dayOfWeek(n.date));
   let weekD = weekday(dayOfWeek(n.date) + 1).substring(0, 3);
   let fullTime = n.time + n.meridian;
   let dateArr = n.date.split("-");

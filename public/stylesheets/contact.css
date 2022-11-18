@@ -1,12 +1,9 @@
 .contact-section {
   width: 100%;
   max-width: 100%;
-  background-image: url(/img/bg6mod.jpg);
-  background-position: 0 0, 50% 50%;
-  background-size: auto cover;
-  background-repeat: repeat, repeat;
+  
   /* border-top: 1px solid rgb(58, 61, 66); */
-  font-size: large;
+ 
 }
 .contact-wrapper {
   width: 75%;

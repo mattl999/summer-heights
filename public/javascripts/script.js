@@ -18,21 +18,19 @@ const toggle = () => {
 const sendEmail = async (event) => {
   event.preventDefault();
   let form = event.target;
-
   const data = {};
   data.name = form.elements[0].value;
   data.email = form.elements[1].value;
   data.message = form.elements[2].value;
-  console.log(data);
+
   const requestOptions = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ msgData: data }),
   };
-  console.log("Frontend", data);
+
   fetch("/email", requestOptions).then((res) => {
     const node = document.createElement("p");
-
     if (res.status === 200) {
       const messageText = document.createTextNode(
         "Your Message Was Sent. Thanks for reaching out!"
@@ -49,20 +47,14 @@ const sendEmail = async (event) => {
       }, 4000);
     } else {
       const messageText = document.createTextNode(
-        "There was an error sending your message. You can mail us directly at: summerheights.contact@gmail.com "
+        "There was an error sending your message. You can mail us directly at: summerheights.contact@gmail.com"
       );
       node.appendChild(messageText);
-      node.style.color = "white";
+      node.style.color = "red";
       node.style.textAlign = "center";
-      contactSection.appendChild(node);
-      setTimeout(function () {
-        node.classList.add("fade");
-        setTimeout(function () {
-          contactSection.removeChild(node);
-        }, 3000);
-      }, 4000);
+      contactSection.appendChild(node);    
     }
-  });
+  })
 };
 navToggler.addEventListener("click", toggle);
 // smtpjs12345

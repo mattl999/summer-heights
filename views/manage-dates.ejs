@@ -14,7 +14,7 @@
 
 <body>
   <form action="/admin/logout" method="post">
-    <button class="logout">logout</button>
+    <button class="logout">Logout</button>
   </form>
   <div class="wrapper p-3">
     <div class="wrap-col">
@@ -28,7 +28,7 @@
         </div>
         <div class="row d-flex justify-content-center">
           <label for="time">Show Time</label><br>
-          <input class="intro-modal-input wake-up col-3" type="text" value="12:00" name="time" id="time" placeholder="ex. 8:00" required>
+          <input class="intro-modal-input wake-up col-3" type="text" name="time" id="time" placeholder="ex. 8:00" required>
           <select name="meridian" class="col-3" id="meridian">
             <option value="am">AM</option>
             <option value="pm">PM</option>
@@ -36,19 +36,19 @@
         </div>
         <div class="row mx-2">
           <label for="venue">Venue</label><br>
-          <input type="text" value="Sneaky Dee's" name="venue" placeholder="ex. Sneaky Dee's" required>
+          <input type="text" value="" name="venue" placeholder="ex. Sneaky Dee's" required>
         </div>
         <div class="row mx-2">
           <label for="city">City</label><br>
-          <input type="text" value="Toronto" name="city" placeholder="ex. Toronto" required>
+          <input type="text" value="" name="city" placeholder="ex. Toronto" required>
         </div>
         <div class="row mx-2">
           <label for="province">Province</label><br>
-          <input type="text" value="ON" name="province" placeholder="ex. ON or QC" required>
+          <input type="text" value="" name="province" placeholder="ex. ON or QC" required>
         </div>
         <div class="row mx-2">
-          <label for="ticketLink">Ticket Link (url)</label><br>
-          <input type="text" value="www.uporn.com" name="ticketLink" placeholder="full url from address bar of ticket site">
+          <label for="ticketLink">Ticket Link (Full Url from Ticket Page)</label><br>
+          <input type="text" value="" name="ticketLink" placeholder="ex. https://www.ticketweb.ca/event/emo-night-toronto-at-sneaky-sneaky-dees-concert-venue-tickets/12185015">
         </div>
         <button type="submit">Submit</button>
       </form>
