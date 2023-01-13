@@ -106,7 +106,7 @@ async function logout(req, res) {
 async function login() {
   let currentlyLoggedIn = await LoggedIn.findOne({});
   currentlyLoggedIn.loggedIn = true;
-  currentlyLoggedIn.save();
+  await currentlyLoggedIn.save();
 }
 async function getEditPage(req, res) {
   id = req.params.id;

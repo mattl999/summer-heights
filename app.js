@@ -8,7 +8,6 @@ var app = express();
 
 let errorLog = "";
 
-// app.set('port', process.env.PORT || 8000);
 
 //load the env vars
 require("dotenv").config();
