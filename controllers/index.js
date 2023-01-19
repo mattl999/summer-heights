@@ -17,7 +17,7 @@ async function email(req, res) {
   let securityString = from + email + message;
   if (!format.test(securityString)) {
     const msg = {
-      to: "mattl99@hotmail.ca",
+      to: "summerheights.contact@gmail.com",
       from: "summerheightswebsite@gmail.com",
       subject: "Message from Summer Heights Website",
       text: message,

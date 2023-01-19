@@ -89,7 +89,10 @@ const sendEmail = async (event) => {
     contactSection.appendChild(node);
   }
 };
+
 navToggler.addEventListener("click", toggle);
+
+
 // smtpjs12345
 // summerheights123
 
