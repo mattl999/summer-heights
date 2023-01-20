@@ -3,7 +3,6 @@
 //GET REQUESTS
 const validUrls = [
   "/",
-  "/img/icons/favicon3.png",
   "/admin",
   "/logout",
   "edit",
@@ -16,8 +15,11 @@ const validUrls = [
   "/email",
   "/delete",
   "/favicon.ico",
+  "/img/icons/favicon.png",
   "/img/backgrounds/contact-bg.jpg",
   "/img/backgrounds/main-bg.jpg",
+  "/img/backgrounds/main-bg-top.jpg",
+  "/img/backgrounds/input-bg.jpg",
   "/img/hero.jpg",
   "/img/icons/hamburger.svg",
   "/img/icons/insta-icon.svg",

@@ -1,0 +1,397 @@
+
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.j'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.jpg%22'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/ero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/ero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/host/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero4.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/herom.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero2mmmmmmm.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero2mmmmmm.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero2-min.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/main-bgtt.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/main-bg2t.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/main-bg2m.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/style.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/contact-bg2.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/contact.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/contact-bg2.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/contact.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/backgrounds/contact-bg2.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/stylesheets/contact.css
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/?name=&emailaddress=&message='    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/?name=&emailaddress=&message='    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/?name=&emailaddress=&message='    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            
+|| Invalid Root URL || Thu, Jan 19, 1:24:04 PM
+      GET '/img/hero3.jpg'    
+      Body: 'undefined', 'undefined'
+      Referer: http://localhost/
+      Content-Type: undefined
+      IP address: ::ffff:127.0.0.1 
+  
+      User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+            

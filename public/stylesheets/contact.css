@@ -12,6 +12,7 @@
 
   background-size: 300px;
   max-width: 900px;
+  /* border: 1px outset #333; */
 }
 .contact-form {
   display: flex;
@@ -27,8 +28,9 @@
 }
 
 .contact-input {
-  background-color: rgba(255, 255, 255, 0.53);
-  background-color: #a8b3bd;
+  background-color: rgba(168, 179, 189,.85);
+  background-image: url(/img/backgrounds/input-bg.jpg);
+
   color: black;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
@@ -44,17 +46,48 @@
     font-weight: 100;
     padding-left: 4px !important;
   }
+  .contact-container{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  #contact-section-container{
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  label{
+    font-size: 15px;
+  }
+  .contact-btn{
+    font-size: 14px !important;
+  }
 }
 
 .contact-btn {
-  background-color: rgb(168, 179, 189);
-  color: rgb(36, 36, 36);
-
+  background-color:rgba(168, 179, 189,.9);
+  /* background-image: url(/img/backgrounds/input-bg.jpg); */
   border-radius: 0;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+  width: 20%;
+  min-width: 150px;
+  transition:.1s;
+
 }
-.contact-btn:hover {
-  background-color: rgb(134, 134, 134);
-  color: black;
+.contact-btn:hover {  background-image: url(/img/backgrounds/input-bg.jpg);
+
+}
+.contact-btn:active {
+  background-color: rgb(125, 123, 123);
+  /* border: 1px solid rgb(83, 83, 83); */
+  color: rgb(0, 0, 0);
+  transition:.04s;
+}
+.contact-btn:focus {
+  background-color: rgb(214, 214, 214);
+  border: none;
+  color: rgb(0, 0, 0);
+
+  transition:.04s;
 }
 @media screen and (max-width: 400px) {
   .contact-header {

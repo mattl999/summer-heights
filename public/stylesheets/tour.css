@@ -67,21 +67,22 @@ h1 {
   -moz-appearance: button;
   appearance: button;
   color: initial;
-  background-color: rgba(116, 170, 188, 0.8);
+  /* background-color: rgba(11, 83, 150, 0.8); */
+  border: 2px outset #cecece;
+  /* background-color: rgba(111, 111, 111, 0.3); */
   text-decoration: none;
   text-align: center;
-  color: #212529;
+  color: #111111;
+  color: var(--light-font);
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  transition: 0.1s;
 }
 .ticket-link:hover {
-  color: #212529;
-  background-color: rgba(145, 183, 196);
-  /* transform: translateY(-5px); */
-  /* transform: skew(0deg, 1deg); */
-  transition: 0.1s;
-  /* background-color: white; */
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.6);
+
+
+
 }
 @media screen and (max-width: 768px) {
   .ticket-div {
@@ -131,22 +132,12 @@ h1 {
 }
 .section-header{
   font-size: 110px !important;
-  /* margin-bottom: 30px !important; */
-  /* background-color: rgba(19, 34, 43, 0.3); */
+ 
   text-align: center;
   padding:0 25px 0 20px;
-  /* max-width: fit-content; */
-  /* box-shadow: 1px 2px 3px rgba(0,0,0,.2); */
+ 
 }
-.section-header2{
-  /* font-size: 110px !important;
-  background-color: rgba(19, 34, 43, 0.3);
-  text-align: center;
-  padding:0 25px 0 20px; */
-  /* margin-bottom: 30px !important; */
-  /* max-width: fit-content; */
-  /* box-shadow: 1px 2px 3px rgba(0,0,0,.2); */
-}
+
 .header-holder{
   display: flex;
   justify-content: center;

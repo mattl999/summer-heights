@@ -5,9 +5,10 @@ const message = document.getElementById("contact-message");
 const contactSection = document.getElementById("contact-section-container");
 const imgObj = document.getElementById("tester");
 
-let togglerBorder = false;
+// const bgImg = document.querySelector(".nav-bg");
 
-// imgObj.addEventListener('load', ()=>{alert("loaded")})
+
+let togglerBorder = false;
 
 const toggle = () => {
   togglerBorder = !togglerBorder;
@@ -90,11 +91,19 @@ const sendEmail = async (event) => {
   }
 };
 
+// const delayLoad = () =>  {
+//   console.log('Hey --> ', bgImg);
+  
+//   var img = new Image();
+//   img.src = window.getComputedStyle(bgImg, null).getPropertyValue("background-image").slice(-15, -2);
+//   console.log(img.src);
+  
+
+//   img.onload = function() {
+//     document.body.style.display = "block";
+//   };
+// }
+
+// document.addEventListener("DOMContentLoaded", delayLoad);
+
 navToggler.addEventListener("click", toggle);
-
-
-// smtpjs12345
-// summerheights123
-
-// summerheights@elasticemail.com
-// T9zWM9BLTB@nhV
